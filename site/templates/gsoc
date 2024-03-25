@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+    {{> head}}
+    <body class="index-page">
+        <div id="wrap">
+            <div id="main">
+                {{> index-header}}
+                <div class="container">
+                    {{> main}}
+                    <div class="ideasGrid">
+						<a href="chart-library" id="Chart_library_for_pharo" class="ideaCard"><div class="header"><div class="projectLogo"><img src="https://raw.githubusercontent.com/pharo-project/pharo-gsoc//master/data/img/milton-chart.png" alt="Chart library for pharo" class="projectLogo"></div><div class="projectName">Chart library for pharo</div></div><p class="projectDescription">Charts like scatter plot, bar plot, histogram, line plot and combined plots are essential for any ecosystem. You have (...)</p></a>
+						<a href="test-coverage-visualization" id="Improving_Test_Coverage_Visualization_Tools" class="ideaCard"><div class="header"><div class="projectLogo"><img src="https://raw.githubusercontent.com/pharo-project/pharo-gsoc//master/data/img/juanpablo-coverage.png" alt="Improving Test Coverage Visualization Tools" class="projectLogo"></div><div class="projectName">Improving Test Coverage Visualization Tools</div></div><p class="projectDescription">This projects targets to improve the Pharo test coverage tool by 1. providing a visual support to display the code (...)</p></a>
+						<a href="slang-vm-transpiler" id="Pharo_to_C_VM_Transpiler" class="ideaCard"><div class="header"><div class="projectLogo"><img src="https://raw.githubusercontent.com/pharo-project/pharo-gsoc//master/data/img/guille-slang.png" alt="Pharo-to-C VM Transpiler" class="projectLogo"></div><div class="projectName">Pharo-to-C VM Transpiler</div></div><p class="projectDescription">The objective of this project is to bring general improvements in the Pharo-to-C transpiler and VM generation (...)</p></a>
+						<a href="graph-libraries-integration" id="Graph_libraries_Integration_and_redesign" class="ideaCard"><div class="header"><div class="projectLogo"><img src="https://raw.githubusercontent.com/pharo-project/pharo-gsoc//master/data/img/paris-graph.png" alt="Graph libraries Integration and redesign" class="projectLogo"></div><div class="projectName">Graph libraries Integration and redesign</div></div><p class="projectDescription">There is a graph library in Pharo implemented within PharoAI https://github.com/pharo-ai/graph-algorithms. This (...)</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{> footer}}
+    </body>
+</html>

@@ -1,0 +1,6 @@
+<ul class="nav navbar-nav">
+	<li><a href="/index">Home</a></li>
+    <li><a href="/venue">Conference Venue</a></li>
+    <li><a href="/learning">Learning Resources</a></li>
+    <li><a href="/gsoc">GSoC '23 Projects</a></li>
+</ul>
