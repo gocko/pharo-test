@@ -1,0 +1,26 @@
+name: publish
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  generate: 
+    name: "Generate site"
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+      - name: "Generate static HTML"
+        uses: estebanlm/foliage-action@v1.4
+        with:
+          source: './site'
+          target: 'generated'
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.email "lukavrankovic97@gmail.com"
+          git config --global user.name "LukaVrankovic"
+          git checkout -b develop
+          git add .
+          git commit -m "Publish changes from Pharo script"
+          git push -u origin develop
