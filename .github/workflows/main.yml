@@ -17,11 +17,4 @@ jobs:
           source: './site'
           target: 'generated'
 
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.email "goca.rakic@gmail.com"
-          git config --global user.name "gocko"
-          git checkout -b public
-          git add .
-          git commit -m "Publish changes from Pharo script"
-          git push -u origin public
+     
